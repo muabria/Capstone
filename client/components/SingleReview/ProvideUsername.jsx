@@ -6,7 +6,7 @@ const ProvideUsername = ({ userId }) => {
     if (isLoading) {
         return <div></div>
     }
-  
+
     console.log(data);
     const author = data.find((user) => { return user.id === userId });
 
